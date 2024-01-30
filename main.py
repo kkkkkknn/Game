@@ -25,21 +25,6 @@ def main():
 
     current_screen = "menu"
 
-    main_map = [["GMMGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGmmf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["GGGGGGGGGGGGGGGGGGGGf"],
-                ["#####################"]]
-
     while is_running:
         x_now = 0
         y_now = 0
