@@ -57,43 +57,18 @@ def main():
                     elif event.key == pygame.K_w:
                         player.move("up")
                         y_now -= 1
-                        # if y_now >= 0 and main_map[y_now][x_now] == "f":
-                        #     current_screen = "end_game"
-                        # elif y_now >= 0 and main_map[x_now][y_now] == "m":
-                        #     constants.HEALTH -= constants.MINE1_DAMAGE
-                        # elif y_now >= 0 and main_map[x_now][y_now] == "M":
-                        #     constants.HEALTH -= constants.MINE2_DAMAGE
-                        #8888
 
                     elif event.key == pygame.K_s:
                         player.move("down")
                         y_now += 1
-                        # if y_now >= 0 and main_map[y_now][x_now] == "f":
-                        #     current_screen = "end_game"
-                        # elif y_now >= 0 and main_map[x_now][y_now] == "m":
-                        #     constants.HEALTH -= constants.MINE1_DAMAGE
-                        # elif y_now >= 0 and main_map[x_now][y_now] == "M":
-                        #     constants.HEALTH -= constants.MINE2_DAMAGE
 
                     elif event.key == pygame.K_a:
                         player.move("left")
                         x_now -= 1
-                        # if x_now >= 0 and main_map[y_now][x_now] == "f":
-                        #     current_screen = "end_game"
-                        # elif x_now >= 0 and main_map[x_now][y_now] == "m":
-                        #     constants.HEALTH -= constants.MINE1_DAMAGE
-                        # elif x_now >= 0 and main_map[x_now][y_now] == "M":
-                        #     constants.HEALTH -= constants.MINE2_DAMAGE
 
                     elif event.key == pygame.K_d:
                         player.move("right")
                         x_now += 1
-                        # if x_now >= 0 and main_map[y_now][x_now] == "f":
-                        #     current_screen = "end_game"
-                        # elif x_now >= 0 and main_map[x_now][y_now] == "m":
-                        #     constants.HEALTH -= constants.MINE1_DAMAGE
-                        # elif x_now >= 0 and main_map[x_now][y_now] == "M":
-                        #     constants.HEALTH -= constants.MINE2_DAMAGE
 
         screen.fill(constants.BACKGROUND_COLOR)
 
