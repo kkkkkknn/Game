@@ -2,7 +2,7 @@ CELL_SIZE = 50
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 FPS = 60
-HEALTH = 100
+HEALTH = 50
 MINE1_DAMAGE = 50
 MINE2_DAMAGE = 100#
 
@@ -21,9 +21,6 @@ END_GAME = "data/end_game.png"
 ICON = "data/icon.ico"
 EXPLOSION = "data/взрыв.wav"
 MAP = "data/map.txt"
-
-MINE1_DAMAGE = 50
-MINE2_DAMAGE = 100
 
 RULES = ["Эта игра чем-то напоминает игру 'сапёр'.",
          "Главная цель дойти до конца поля пока ещё есть здоровье.",
