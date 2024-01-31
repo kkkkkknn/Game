@@ -23,8 +23,7 @@ EXPLOSION = "data/взрыв.wav"
 MAP = "data/map.txt"
 
 MINE1_DAMAGE = 50
-MINE2_DAMAGE = 75
-MINE3_DAMAGE = 100
+MINE2_DAMAGE = 100
 
 RULES = ["Эта игра чем-то напоминает игру 'сапёр'.",
          "Главная цель дойти до конца поля пока ещё есть здоровье.",
